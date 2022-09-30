@@ -1,4 +1,4 @@
-print("\n\t\tWELCOME TO HEALTH MANANGEMENT SOFTWARE ccJustCodingWithVivek")
+print("\n\t\tWELCOME TO HEALTH MANANGEMENT SOFTWARE (ccJustCodingWithVivek)")
 
 def getdate():
     import datetime
@@ -9,7 +9,7 @@ try:
     choice = input("What do you want ?? ")
     if choice == 'l':
         def log():
-            print("\n\t\tPress 1 for Sumit\n\t\tPress 2 for Sushant\n\t\tPress 3 for Badal\n\t\tEnter any number to exit from the health management\n\t\tccJustCodingWithVivek")
+            print("\n\t\tPress 1 for Sumit\n\t\tPress 2 for Sushant\n\t\tPress 3 for Badal\n\t\tEnter any number to exit from the health management")
             name=int(input("Enter the id of the patient: "))
         
            
@@ -79,7 +79,7 @@ try:
           #ccJustCodingWithVivek
     elif choice == 'r':
         def retrieve():
-            print("\n\t\tPress 1 for Sumit\n\t\tPress 2 for Sushant\n\t\tPress 3 for Badal\n\t\tEnter any number to exit from the health management\n\t\tccJustCodingWithVivek")
+            print("\n\t\tPress 1 for Sumit\n\t\tPress 2 for Sushant\n\t\tPress 3 for Badal\n\t\tEnter any number to exit from the health management")
             name=int(input("Enter the id of the patient: "))
             
             if name==1:
